@@ -1,0 +1,13 @@
+@media screen and (min-width: 480px) {
+    .main-nav-container{margin: 15px 0;}
+    .main-nav-container .main-nav-header{display: none;}
+    #nav-container{height: 100%;}
+    #main-nav{display: block;}
+    #small-device-footer{display: none;}
+    #large-device-footer{display: block;}
+}
+@media screen and (max-width: 480px) {
+    #main-nav{display: none;}
+    #small-device-footer{display: block;}
+    #large-device-footer{display: none;}
+}

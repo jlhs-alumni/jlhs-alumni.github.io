@@ -1,6 +1,89 @@
----
-layout: default
----
+<html>
+<head>
+	<title>Design</title>
 
 
-<h1>Home</h1>
+<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/responsive.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div id="nav-container" class="col-md-2">
+            <div class="center-block">
+                <img src="gfx/logo_black.jpg" class="img-responsive">
+            </div>
+            <nav class="main-nav-container">
+                <div class="main-nav-header">
+                    <a class="btn btn-link" role="button" onclick="$('#main-nav').toggle();">
+                      <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <ul id="main-nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">BENIFITS</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">PHOTOS</a></li>
+                    <li><a href="#">CAREERS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-nav-container" id="large-device-footer">
+                <ul class="social-nav">
+                    <li><a href=""><img src="gfx/social/facebook.png"></a></li>
+                    <li><a href=""><img src="gfx/social/twitter.png"></a></li>
+                    <li><a href=""><img src="gfx/social/youtube.png"></a></li>
+                    <li><a href=""><img src="gfx/social/flickr.png"></a></li>
+                    <!-- <li><a href=""><img src="gfx/instagram.png"></a></li> -->
+                </ul>
+                <address>
+                    <strong>JLSH Alumni Association</strong><br>
+                    House No: 38, Road No: 10/A, Dhanmondi, Dhaka 1209, Bangladesh. <br>
+                    <!-- <abbr title="Phone">P:</abbr> (123) 456-7890 -->
+                </address>
+            </div>
+
+        </div>
+
+        <div id="main-container" class="col-md-10">Main Content</div>
+    </div>
+    <div class="row" id="small-device-footer">
+        <div class="footer-nav-container">
+            <ul class="social-nav">
+                <li><a href="#"><img src="gfx/social/facebook.png"></a></li>
+                <li><a href="#"><img src="gfx/social/twitter.png"></a></li>
+                <li><a href="#"><img src="gfx/social/youtube.png"></a></li>
+                <li><a href="#"><img src="gfx/social/flickr.png"></a></li>
+                <!-- <li><a href="#"><img src="gfx/social/instagram.png"></a></li> -->
+            </ul>
+            <address>
+                <strong>JLSH Alumni Association</strong><br>
+                House No: 38, Road No: 10/A, Dhanmondi, Dhaka 1209, Bangladesh
+                <!-- <abbr title="Phone">P:</abbr> (123) 456-7890 -->
+            </address>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
